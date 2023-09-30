@@ -1,0 +1,167 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+            "responses": ["Hello! I am Obyshi. How can I assist you today?", "Hi there! I am Obyshi. How can I help you?", "Greetings! I am Obyshi. What can I do for you?"],
+            "context": ""
+        },
+        {
+            "tag": "products",
+            "patterns": ["What products do you have?", "Tell me about your products", "Product catalog"],
+            "responses": ["We offer a wide range of products. What are you looking for?", "Our products include electronics, clothing, accessories, and more. How can I assist you?"],
+            "context": ""
+        },
+        {
+            "tag": "product_details",
+            "patterns": ["Tell me more about product X", "Product details for Y", "What can you tell me about product Z?"],
+            "responses": ["Sure, please provide the product ID or name you're interested in.", "To get details, kindly specify the product you'd like information about."],
+            "context": ""
+        },
+        {
+            "tag": "product_info",
+            "patterns": ["Product ID: 12345", "I want details for product ABC", "Tell me about product XYZ"],
+            "responses": ["Great! Let me fetch the details for that product.", "Sure, I'll find the information for you."],
+            "context": ""
+        },
+        {
+            "tag": "purchase",
+            "patterns": ["How do I make a purchase?", "Can I buy this product?", "Purchase instructions"],
+            "responses": ["To make a purchase, you can add the product to your cart and proceed to checkout. Is there a specific product you'd like to buy?", "Sure, I can help you with the purchase process. Please specify the product you're interested in."],
+            "context": ""
+        },
+        {
+            "tag": "checkout",
+            "patterns": ["How does the checkout process work?", "Tell me about payment options", "Checkout steps"],
+            "responses": ["The checkout process is straightforward. You'll select your items, enter shipping details, choose a payment method, and confirm your order.", "Checkout involves selecting your products, providing shipping information, choosing a payment method, and confirming your order. It's easy!"],
+            "context": ""
+        },
+        {
+            "tag": "order_status",
+            "patterns": ["Check my order status", "Where is my package?", "Track my order"],
+            "responses": ["To check your order status, please provide your order number, and I'll look it up for you.", "I can help you with that. Just give me your order number, and I'll find the status for you."],
+            "context": ""
+        },
+        {
+            "tag": "about_company",
+            "patterns": ["Tell me about Obyshi", "What is Obyshi?", "About Obyshi", "Company information"],
+            "responses": [
+                "Obyshi is the Internet's home for users, wholesalers, and suppliers.",
+                "We are an exciting marketplace for consumers to get the best value on product deals.",
+                "With our solid partnerships with top merchants, Obyshi offers consumers a wide variety of products from top suppliers.",
+                "Our goal is to create a win-win experience for both consumers and our merchant partners."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "chatbot_name",
+            "patterns": ["What's your name?", "Tell me your name", "Who are you?"],
+            "responses": ["I'm Obyshi, your helpful assistant! How can I assist you today?"],
+            "context": ""
+        },
+        {
+            "tag": "cancellation_policy",
+            "patterns": ["Tell me about your cancellation policy", "Cancellation policy", "How can I cancel my order?"],
+            "responses": [
+                "At Obyshi, we understand that circumstances may change, and we want to provide you with a hassle-free cancellation process.",
+                "Please review our cancellation policy below:",
+                "1. Order Cancellation: If you wish to cancel an order, please contact our customer support team as soon as possible.",
+                "2. Membership Cancellation: For membership-based services or subscription plans, you have the option to cancel your membership at any time.",
+                "3. Refunds: In the event of an eligible cancellation, we will process a refund in accordance with our refund policy.",
+                "4. Communication and Confirmation: Upon successful cancellation, you will receive a confirmation email or notification confirming the cancellation of your order or membership.",
+                "5. Changes to the Cancellation Policy: Obyshi reserves the right to modify or update this cancellation policy at any time.",
+                "Thank you for choosing Obyshi!"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "shipping_policy",
+            "patterns": ["Tell me about your shipping policy", "shipping policy", "How can I ship my order?", "How do you deliver"],
+            "responses": [
+                "Processing Time: After placing your order, our dedicated team works diligently to process and prepare your items for shipping. While we aim to process orders within 1-3 business days, please note that during peak periods or promotional campaigns, processing times may be slightly longer.",
+                "Shipping Methods and Delivery: We partner with trusted shipping carriers to ensure timely delivery. Shipping methods and estimated delivery times are displayed during checkout based on your address and selected items. Please note that delivery estimates are approximate and may be subject to unforeseen delays beyond our control.",
+                "Shipping Costs: Shipping costs are determined by factors like shipping method, destination, weight, and package dimensions. You'll see applicable shipping charges during checkout before confirming your order. We also offer occasional free shipping promotions or discounts.",
+                "International Shipping: We're delighted to offer international shipping to many countries. Be aware that customs duties, taxes, and import fees may apply upon delivery, and they're the recipient's responsibility. Check with your local customs office for specific country-related fees or restrictions.",
+                "Order Tracking: Most shipments come with order tracking services. Upon shipping, you'll receive a confirmation email with a tracking number and instructions. You can also access tracking information in your Obyshi account's order history.",
+                "Shipping Restrictions: Certain products may have shipping restrictions due to legal, safety, or logistical reasons. These restrictions may vary by product and destination. If a product can't be shipped to your location, you'll be notified during checkout.",
+                "Policy Updates: Obyshi retains the right to modify this shipping policy at any time. Changes take effect immediately upon posting on our website. We encourage periodic reviews to stay informed about updates.",
+                "For questions or assistance concerning our shipping policy, please contact our customer support team. We're here to help and ensure your satisfaction with our services.\n\nThank you for choosing Obyshi!"
+            ],
+            "context":  ""
+        },
+        {
+            "tag": "Privacy_Policy",
+            "patterns": ["What's your privacy policy?", "Tell me about privacy", "Privacy rules"],
+            "responses": [
+                "Privacy is our jam at Obyshi! Our Privacy Policy is your backstage pass to how we handle your info. Dive into this epic adventure with us!",
+                "Picture this as a treasure hunt for data. When you explore our website, create an account, or shop with us, we might collect your name, email, address, phone, and payment details. We're like friendly magpies, gathering shiny bits of info. Plus, we take notes on your website adventures, like your IP address and the pages you visit. Don't worry; it's all to make your experience better.",
+                "Ever wondered how we put your info to work? Well, we use it for a bunch of cool stuff:\n- To process your orders and payments, like a well-oiled machine.\n- To chat with you about orders, accounts, and promos, because we like staying in touch.\n- To give our website and products a makeover based on your preferences.\n- To send you marketing awesomeness if you've given us the green light.\n- To follow the rules and keep everything legal and tidy.",
+                "Sharing is caring, right? We may pass your info to these folks:\n- The order processing pros to make sure your orders sail smoothly.\n- Our customer support wizards, so you're never alone on this adventure.\n- The legal eagles, just to keep things above board.\n- Sometimes, we share anonymous, super-secret data for research and magic marketing tricks. No worries, your identity stays hidden.",
+                "Think of us as digital bodyguards. We use fancy encryption tech to keep your payment info safe. Only the chosen ones get access to your personal details. But, remember, the internet isn't Fort Knox; we do our best, but absolute security is a unicorn.",
+                "Cookies are like digital breadcrumbs we use to learn more about your online journey. You can disable them, but you might miss out on some website wonders.",
+                "Sometimes, our website has secret passages to other places. We don't control those lands, so peek at their privacy rules before sharing any secrets.",
+                "Our digital amusement park isn't for kids under 18. If you think we've accidentally gathered info from a young explorer, let us know. We'll fix it ASAP.",
+                "Just like a sequel, our Privacy Policy might get an update. We'll post the new script on our website, and your continued use of our site means you're cool with the changes.",
+                "Got questions or need privacy advice? Reach out to our info wizards at info@obyshi.com. They're here to make your privacy adventure even more epic!"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "order_placement",
+            "patterns": ["How can I place an order?", "What's the process to order?", "I want to make a purchase, how do I do it?"],
+            "responses": ["To place an order, simply browse our website, select the desired items, and add them to your cart. Proceed to the checkout page, where you can review your order details and provide the necessary shipping and payment information. Once your order is confirmed, we will begin processing it."]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": ["What payment methods are accepted?", "Do you take credit cards?", "Can I pay with PayPal or Stripe?"],
+            "responses": ["We accept various payment methods to accommodate your preferences. You can make a secure payment using major credit cards (Visa, Mastercard, American Express) or select digital payment options such as PayPal and Stripe."]
+        },
+        {
+            "tag": "order_changes",
+            "patterns": ["Can I modify my order?", "Is it possible to change my order?", "What if I need to cancel my order?"],
+            "responses": ["Once an order is submitted, our system immediately begins processing it to ensure timely delivery. Therefore, we recommend reviewing your order carefully before confirming it. If you need to make changes or cancel your order, please reach out to our customer support team as soon as possible. While we cannot guarantee that changes can be made, we will do our best to assist you."]
+        },
+        {
+            "tag": "order_changes",
+            "patterns": ["Can I modify my order?", "Is it possible to change my order?", "What if I need to cancel my order?"],
+            "responses": ["Once an order is submitted, our system immediately begins processing it to ensure timely delivery. Therefore, we recommend reviewing your order carefully before confirming it. If you need to make changes or cancel your order, please reach out to our customer support team as soon as possible. While we cannot guarantee that changes can be made, we will do our best to assist you."]
+        },
+        {
+            "tag": "international_shipping",
+            "patterns": ["Do you ship internationally?", "Can I get international shipping?", "Which countries do you ship to?"],
+            "responses": ["Yes, we offer international shipping to many countries. However, please be aware that customs duties, taxes, and other import fees may apply upon delivery. These additional charges are the responsibility of the recipient and are not included in the item or shipping costs. It is recommended to check with your local customs office for more information about any potential fees or restrictions that may apply to your specific country."]
+        },
+        {
+            "tag": "track_order",
+            "patterns": ["How can I track my order?", "Tell me about order tracking.", "Where can I find my tracking number?"],
+            "responses": ["Once your order has been shipped, we will provide you with a tracking number via email or notification. You can use this tracking number to monitor the progress of your shipment. Additionally, you can log into your Obyshi account and visit the order history section to track your package."]
+        },
+        {
+            "tag": "return_policy",
+            "patterns": ["What is your return policy?", "Can I return my order?", "Tell me about your return policy."],
+            "responses": ["We want you to be completely satisfied with your purchase. If you are not happy with your order, we accept returns within a specified period. Please refer to our Returns and Refunds Policy on our website for detailed instructions on how to initiate a return and any applicable conditions."]
+        },
+        {
+            "tag": "order_issue",
+            "patterns": ["What should I do if I encounter an issue with my order?", "I have a problem with my order, what now?", "How can I get help with my order issue?"],
+            "responses": ["If you experience any problems with your order or have any concerns, please contact our customer support team. We are here to assist you and resolve any issues promptly. You can reach us through our website contact page or by emailing info@obyshi.com."]
+        },
+        {
+            "tag": "customer_support",
+            "patterns": ["Do you offer customer support?", "Is there customer service available?", "How can I contact customer support?"],
+            "responses": ["Absolutely! We have a dedicated customer support team available to assist you with any questions, concerns, or inquiries you may have. Feel free to reach out to us, and we will be more than happy to help."]
+        },
+        {
+            "tag": "thankyou",
+            "patterns": ["Thanks", "Thank you", "Appreciate it"],
+            "responses": ["You're welcome! If you have more questions, feel free to ask.", "You're welcome! Let me know if there's anything else I can help with."],
+            "context": ""
+        },
+        {
+            "tag": "fallback",
+            "patterns": ["", "I don't understand", "Can you repeat that?", "What?"],
+            "responses": ["I'm sorry, I didn't understand that. Could you please rephrase or ask another question?", "Apologies, I couldn't comprehend your request. Please try a different question."],
+            "context": ""
+        }
+    ]
+}
